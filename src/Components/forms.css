@@ -1,0 +1,45 @@
+h1{
+    color: red;
+    margin: 0;
+     padding-top:2rem ; 
+    padding:0;
+     overflow: none; 
+
+   
+}
+.form-container{
+    text-align: center;   
+    background-color: #f2f5f4; 
+    padding: 2rem 2rem;
+
+
+
+}
+
+
+.input{
+    text-align: center;
+    padding: 0.6rem 4rem;
+    border-radius: 3%;
+    margin: 3px;
+    border: 1px solid rgb(141, 194, 241) ; 
+}
+.btn-submit{
+    padding: 0.3rem 4rem;
+    font-size: 1.6rem;
+    border: 1px solid #f2f5f4 ; 
+    background-color: rgb(141, 194, 241);
+
+
+
+}
+.form-file{
+    text-align: center;
+    padding: 0.6rem 4rem;
+    border-radius: 3%;
+    margin: 3px;
+
+
+}
+
+
