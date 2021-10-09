@@ -32,7 +32,7 @@ export default function Forms() {
 
                                     <i className="fa fa-envelope  reach-icon "></i>
                                     <span> hello@welcome.com</span>
-                                </span>
+                                    </span>
                                 </li>
                                 <li> <span className="li-btn">
 
