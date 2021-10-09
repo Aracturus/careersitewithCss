@@ -1,5 +1,6 @@
 import React from 'react'
 import './navbar.css'
+import navlogo from './navlogo.png'
 
 export default function NavBar() {
 
@@ -32,8 +33,13 @@ export default function NavBar() {
     return (
         <>     
 
-            <nav className="navbar navbar-end" role="navigation" aria-label="main navigation">
-              <div className="navbar-brand">
+            <nav className="navbar navbar-end " role="navigation" aria-label="main navigation">
+              <div className="container">
+
+              <div className="navbar-brand ">
+              <a class="navbar-item" href="/">
+                  <img src={navlogo} width="150" height="50"/>
+              </a>
               
 
                 <a role="button" onClick className="navbar-burger" aria-label="menu" aria-expanded="true" data-target="navbarBasicExample">
@@ -44,7 +50,7 @@ export default function NavBar() {
               </div>
 
               <div id="navbarBasicExample" className="navbar-menu">
-                <div className="navbar-start">
+                <div className="navbar-end">
                   <a  href="/" className="navbar-item">
                     Location
                   </a>
@@ -66,6 +72,8 @@ export default function NavBar() {
 
                 
               </div>
+              </div>
+
             </nav>
             <div className="container-join">
               <h2>Join Our Talent Network &gt;</h2>

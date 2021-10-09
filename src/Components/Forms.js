@@ -23,7 +23,7 @@ export default function Forms() {
 
                                     <i className="fa fa-phone  reach-icon "></i>
                                     <span>+0123456078910 </span>
-                                </span>
+                                    </span>
 
 
                                 </li>

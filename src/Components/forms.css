@@ -38,11 +38,9 @@ li:hover{
     background-color:red;
     color:white;
 }
-.reach-icon:hover{
-    /* background-color: aliceblue; */
+li .reach-icon:hover{
     color:white;
-    padding-right:5px ;
-}
+} 
 .reach-icon{
     color:#ff0000;
     padding-right:5px ;
@@ -145,8 +143,10 @@ input{
         padding: 5px 10px;
         width: 80%;
         border-radius: 2rem;
+        display: inline-block;
     }
-    li:hover{
+  
+    li:hover {
         margin: 0;
         padding: 5px 10px;
         width: 80%;
@@ -154,5 +154,9 @@ input{
         background-color:red;
         color:white;
     }
+    li .reach-icon:hover{
+        color:white;
+    } 
 }
+   
 
