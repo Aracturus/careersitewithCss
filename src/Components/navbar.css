@@ -19,3 +19,6 @@
     color: aliceblue;
     font-size: 2rem;
 }
+.navbar-burger:last-child{
+    color: #ff0000;
+}

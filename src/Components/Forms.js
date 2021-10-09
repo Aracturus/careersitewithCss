@@ -8,8 +8,8 @@ export default function Forms() {
 
                                 <h1 className="form-heading">Reach Us</h1>
 
-                        <div class="columns">
-                            <div class="column">
+                        <div className="columns">
+                            <div className="column">
                                 <span className="heading-paragraph">
 
                                 <p>
@@ -58,7 +58,7 @@ export default function Forms() {
                                 </span>
                             </div>
                             </div>
-                            <div class="column">
+                            <div className="column">
                             <div className="form-block column">
                                 <form action="">
                                     <label htmlFor="name">Your Name</label><br/>
