@@ -1,45 +1,197 @@
-h1{
-    color: red;
+
+.forms-container{
+    background-color: black;
+    padding: 2rem;
+    color: white;
+}
+.form-heading{
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+.heading-paragraph{
+    padding: 3rem 4rem;
+    font-size: 1rem;
+
+}
+ol{
+    list-style-type: none;
+    font-size: 1rem;
+    padding: 3rem;
+    display: block;
+    text-align: center;
+  
+
+
+}
+li{
+    margin: 2rem;
+    padding: 1rem 1rem;
+    width: 50%;
+    border-radius: 2rem;
+}
+li:hover{
+    margin: 2rem;
+    padding: 1rem 1rem;
+    width: 50%;
+    border-radius: 2rem;
+    background-color:red;
+    color:white;
+}
+.reach-icon:hover{
+    /* background-color: aliceblue; */
+    color:white;
+    padding-right:5px ;
+}
+.reach-icon{
+    color:#ff0000;
+    padding-right:5px ;
+}
+.social-icon{
+
+    text-align: center;
+    justify-content: center;
+}
+.social-icons{
+    font-size: 2rem;
+    border-radius: 80%;    
+    color:#ff0000;
+    padding: 1rem;
+}
+.social-icons:hover{
+    background-color: red;
+    color:white;
+}
+.form-block{
+    box-shadow: 8px 4px 24px 2px rgba(133, 105, 107, 1);
+    margin: 2rem;
+    background-color: aliceblue;
+    padding: 2rem 4rem;
+    width: fit-content;
+    border-radius: 2%;
+    color: black;
+}
+
+
+.btn-sendmessage{
+    margin-left: 50%;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+    margin: 2px;
+    background-color: red;
+    padding: 2px 8px;
+
+
+}
+.btn-sendmessage:hover{
+ 
+    background-color:g;
+}
+input:focus {
+    border: 1px solid #ff0000;
+}
+
+textarea{
+    border: 1px solid dodgerblue;
+    outline: none;
+}
+.input-container {
+        display: flex;
+        width: 100%;
+        margin: 10px;
+        border: 1px solid gray;
+        border-radius: 2px;
+        outline: none;
+        border: 1px solid dodgerblue;
+
+        /* margin-bott 15px; */
+    
+}
+input{
+    padding: 2px 8px;
     margin: 0;
-     padding-top:2rem ; 
-    padding:0;
-     overflow: none; 
-
-   
-}
-.form-container{
-    text-align: center;   
-    background-color: #f2f5f4; 
-    padding: 2rem 2rem;
-
-
-
+    border-radius: 4%;
+    color: black;
+    border: none;
+    width: 100%;
+    outline:none;
+    
 }
 
+.icon-forms {
+    display: block;
+    color: #ff0000;
+    padding:2px ;
+    font-size: 1.2rem;
+    background-color: azure;
+    margin: 0;
 
-.input{
+}
+
+/* 
+h1 ,p{
     text-align: center;
-    padding: 0.6rem 4rem;
-    border-radius: 3%;
-    margin: 3px;
-    border: 1px solid rgb(141, 194, 241) ; 
 }
-.btn-submit{
-    padding: 0.3rem 4rem;
-    font-size: 1.6rem;
-    border: 1px solid #f2f5f4 ; 
-    background-color: rgb(141, 194, 241);
-
-
+.containerblock{
+    display:grid;
+    grid-template-columns: auto auto;
+    width: 10vw;
+    height: fit-content;
+    justify-content: space-between;
+    
+    
 
 }
-.form-file{
+.form-block{
+    box-shadow: 8px 4px 24px 2px rgba(133, 105, 107, 1);
+    margin: 2rem;
+    background-color: aliceblue;
+    padding: 2rem 4rem;
+    width: fit-content;
+    border-radius: 2%;
+    color: black;
+}
+
+
+    
+
+
+
+.quote-continaer{
+    padding: 2rem;
+    justify-content: center;
+
+}
+.heading{
+    padding: 3rem 4rem;
+
+}
+ol{
+    list-style-type: none;
+    font-size: 1rem;
+    padding: 3rem;
+    display: block;
     text-align: center;
-    padding: 0.6rem 4rem;
-    border-radius: 3%;
-    margin: 3px;
+  
 
 
 }
+li{
+    margin: 2rem;
+    padding: 1rem 1rem;
+    width: 50%;
+    border-radius: 2rem;
+}
+li:hover{
+    margin: 2rem;
+    padding: 1rem 1rem;
+    width: 50%;
+    border-radius: 2rem;
+    background-color:gray;
+    color: gray;
+}
 
 
+}   */

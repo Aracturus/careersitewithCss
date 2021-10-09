@@ -4,8 +4,10 @@ import './career.css'
 export default function Career() {
     return (
         <>
-        <div className="container-career">
+        {/* <div className="fullcontainer-career colums">
             <h1>Career</h1>
+        <div className="container-career">
+
             <div className="left-container">
                 <p className="leftcontainer-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis corrupti voluptatum, possimus neque ducimus, magni earum, nemo voluptatibus sint labore reprehenderit sit quasi molestias. Quidem facere praesentium asperiores maiores amet.
                 </p>
@@ -31,7 +33,24 @@ export default function Career() {
                 <img className="image-Container"src={'https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'} alt="" srcset="" />
 
             </div>
+            </div>
+        </div> */}
+        <div className="full-container">
+            <h1 className="heading-career">Career</h1>
+        
+
+        <div className="columns ">
+            <div className="column">
+            <p className="leftcontainer-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis corrupti voluptatum, possimus neque ducimus, magni earum, nemo voluptatibus sint labore reprehenderit sit quasi molestias. Quidem facere praesentium asperiores maiores amet.
+                </p>
+            </div>
+            <div className="column">
+            <img className="image-Container"src={'https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'} alt="" srcset="" />
+            </div>
+            
         </div>
+        </div>
+
             
         </>
     )
