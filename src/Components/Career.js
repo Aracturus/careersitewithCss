@@ -45,7 +45,7 @@ export default function Career() {
                 </p>
             </div>
             <div className="column">
-            <img className="image-Container"src={'https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'} alt="" srcset="" />
+            <img className="image-container" src={'https://images.pexels.com/photos/34092/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500https://www.cognizant.com/us/en/strategic-cloud-partnerhttps://images.pexels.com/photos/34092/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500'} alt="" srcset="" />
             </div>
             
         </div>
