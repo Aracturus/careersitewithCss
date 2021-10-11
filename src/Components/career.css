@@ -1,19 +1,25 @@
 
-.full-container{
+.career-box{
     background-color: black;
     color: white;
-    padding: 1.2rem;
+    padding: 3rem auto;
+    font-family: Roboto ;
 
 }
 .heading-career{
-    font-size: 4.5rem;
-    padding: 2rem;
+    padding: 3.6rem 0;
+    font: 6rem lucia;
     text-align: center;
-    text-decoration-style:bold ;
+    color: #ff0000;
+}
+.container-para{
+    font-size: 1.6rem;
+    padding: 2%;
+
 }
 .image-container{
     width:90vw;
     height: 20rem;
     border-radius: 5%;
-    /* padding: 2%; */
+    padding: 2%;
 }
