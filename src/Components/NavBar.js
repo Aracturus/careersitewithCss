@@ -4,6 +4,7 @@ import navlogo from './navlogo.png'
 
 export default function NavBar() {
 
+
   document.addEventListener('DOMContentLoaded', () => {
 
     // Get all "navbar-burger" elements
@@ -30,51 +31,111 @@ export default function NavBar() {
   
   });
 
+  // mousehover
+  
+
     return (
         <>     
 
-            <nav className="navbar navbar-end " role="navigation" aria-label="main navigation">
-              <div className="container">
+  
+              <nav className="navbar navbar-menu  is-black" id="nav-bar" role="navigation" aria-label="main navigation">
+                <div className="container ">
 
-              <div className="navbar-brand ">
-              <a class="navbar-item" href="/">
-                  <img src={navlogo} width="150" height="50"/>
-              </a>
-              
+                  <div className="navbar-brand navbar-start ">
+                    <a href="/"className="navbar-item" href="/">
+                      <img src={navlogo} width="180" height="40"/>
+                    </a>
 
-                <a role="button" onClick className="navbar-burger" aria-label="menu" aria-expanded="true" data-target="navbarBasicExample">
-                  <span aria-hidden="true"></span>
-                  <span aria-hidden="true"></span>
-                  <span aria-hidden="true"></span>
-                </a>
-              </div>
+                    <a href="/"role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                      <span aria-hidden="true"></span>
+                      <span aria-hidden="true"></span>
+                      <span aria-hidden="true"></span>
+                    </a>
+                  </div>
 
-              <div id="navbarBasicExample" className="navbar-menu">
-                <div className="navbar-end">
-                  <a  href="/" className="navbar-item">
-                    Location
-                  </a>
+                  <div id="navbarBasicExample" className="navbar-menu is-hoverable" >
+                    <div className="navbar-end has-text-danger-dark" >
+                      <a href="/"className="navbar-item " >
+                      Products
+                      </a>
 
-                  <a href="/"  className="navbar-item">
-                    Teams
-                  </a>
-                  <a className="navbar-item">
-                    Resources
-                  </a>
-                  <a  href="/" className="navbar-item">
-                    University
-                  </a>
-                  <a  href="/" className="navbar-item">
-                    How We Hire
-                  </a>
-                  
+                      <a href="/"className="navbar-item ">
+                      Digitalization
+                      </a>
+
+                      <div className="navbar-item has-dropdown is-hoverable" >
+                        <a href="/"className="navbar-link is-arrowless ">
+                        Engineering
+                        </a>
+
+                        <div className="navbar-dropdown  ">
+                          <a href="/"className="navbar-item ">
+                            Engineering Services
+                          </a>
+                          <a href="/"className="navbar-item">
+                            Rotor Dynamics
+                          </a>
+                          <a href="/"className="navbar-item" >
+                            Surge Dynamics
+                          </a>
+                          <a href="/"className="navbar-item">
+                            Reverse Engineering
+                          </a>
+                          <a href="/"className="navbar-item">
+                            Retrofit &amp; Upgrade
+                          </a>
+                        </div>
+                      </div><div className="navbar-item has-dropdown is-hoverable">
+                        <a href="/"className="navbar-link is-arrowless " >
+                        Plant Services
+                        </a>
+
+                        <div className="navbar-dropdown ">
+                          <a href="/"className="navbar-item">
+                            Operation &amp; Maintanence
+                          </a>
+                          <a href="/"className="navbar-item">
+                            Condition Monitoring
+                          </a>
+                          <a href="/"className="navbar-item">
+                            Plant Turnaroung
+                          </a>
+                          <a href="/"className="navbar-item">
+                            Field Performance Test
+                          </a>
+                          <a href="/"className="navbar-item">
+                            Engineered Spare Parts
+                          </a>
+                        </div>
+                      </div>
+                      <a href="/"className="navbar-item ">
+                      Perspectives
+                      </a>
+                      <div className="navbar-item has-dropdown is-hoverable">
+                        <a href="/"className="navbar-link is-arrowless ">
+                        Company
+                        </a>
+
+                        <div className="navbar-dropdown">
+                          <a href="/"className="navbar-item">
+                            About Us
+                          </a>
+                          <a href="/"className="navbar-item ">
+                            Career
+                          </a>
+                          <a href="/"className="navbar-item">
+                            Contact us
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                  </div>
                 </div>
 
-                
-              </div>
-              </div>
-
             </nav>
+
             <div className="container-join">
               <h2>Join Our Talent Network &gt;</h2>
             </div>

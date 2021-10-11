@@ -1,38 +1,21 @@
-
-.navbar{
-    background-color:black;
-
-
+body{
+    color: #ff0000;
+}
+.navbar-menu , .navbar-dropdown{
+    background-color: black;
+    font-size: 1.2rem;
 }
 .navbar-item{
-    color:#ff0000;
-    font: 1.6rem Arial, sans-serif;
-
+    color: #ff0000;
 }
-.navbar-end:hover{
+.navbar-item>a:hover{
     color:#ff0000;
- 
-    font: 1.6rem Arial, sans-serif;
-
+    background-color: rgb(46, 43, 43);
 }
 
 .container-join{
-    background: #ff0000;
+    background-color: #ff0000;
+    color: white;
+    font-size: 2rem ;
     text-align: center;
-    color: aliceblue;
-    font-size: 2rem;
-}
-.navbar-burger:last-child{
-    color: #ff0000;
-    /* height: 3rem; */
-    font: 3.6rem ;
-}
-@media screen and (max-width:500px) {
-    .container-join{
-        background: #ff0000;
-        text-align: center;
-        color: aliceblue;
-        font-size: 1.6rem;
-    }
-    
 }
